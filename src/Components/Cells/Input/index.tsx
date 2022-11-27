@@ -14,7 +14,7 @@ const Input:React.FC<InputProps> = ({
     placeholder,
     type
 }) => (
-    <StyledInput backgroundColor={backgroundColor} color={color} placeholder={placeholder} type={type}/>
+    <StyledInput backgroundColor={backgroundColor} color={color} placeholder={placeholder} type={type} required/>
 )
 
 export default Input

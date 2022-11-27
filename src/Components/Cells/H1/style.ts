@@ -14,8 +14,8 @@ const StyledH1 = styled.h1<H1Props>`
     display: inline;
     padding: 0px 20px;
     font-family: Pridi;
-    @media (max-width: 404px) {
-        font-size: 120%;
+    @media (max-width: 440px) {
+        font-size: 180%;
     }
 `
 

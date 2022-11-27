@@ -13,7 +13,7 @@ const StyledFooter = styled.footer<FooterProps>`
     font-size: ${(props) => props.fontSize};
     text-align: center;
     position: absolute;
-    bottom: 0;
+    bottom: 50;
     right: 0;
 `
 

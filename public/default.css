@@ -14,3 +14,10 @@ body {
     height: 100%;
     width: 100%;
 }
+
+.autenticate {
+    background-image: url("Component 1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}

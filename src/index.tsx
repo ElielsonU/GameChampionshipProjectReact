@@ -1,19 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import ContentBox from './Components/Organisms/ContentBox';
+import { BrowserRouter } from 'react-router-dom';
+import Routes from './routes';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 
-//e: React.ChangeEvent<HTMLInputElement>
-
-function oi(e: React.MouseEvent) {
-  console.log("oi")
-}
-
 root.render(
-  <React.StrictMode>
-    
-  </React.StrictMode>
+  <BrowserRouter>
+    <Routes></Routes>
+  </BrowserRouter>
 );

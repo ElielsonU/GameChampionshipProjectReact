@@ -24,8 +24,8 @@ const ContentBox:React.FC<ContentBoxProps> = ({
     SelectOnchange
 }) => {
     return  (
-        <Div backgroundColor={colors[3]} flexDirection="row" height="415px" width="356px" alignItems="flex-start" borderRadius="15px" fontSize="20px">
-            <Div backgroundColor={colors[2]} flexDirection="row" height="70px" width="150%" alignItems="center" borderRadius="0px" fontSize="22px">
+        <Div backgroundColor={colors[3]} flexDirection="row" height="415px" width="356px" alignItems="flex-start" borderRadius="15px" fontSize="23px">
+            <Div backgroundColor={colors[2]} flexDirection="row" height="70px" width="150%" alignItems="center" borderRadius="0px" fontSize="23px">
                 <H2 color={colors[3]} fontSize="" >{type}</H2>
             </Div>
             {type === "Let's Play"?

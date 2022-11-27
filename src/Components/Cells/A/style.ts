@@ -13,7 +13,7 @@ const StyledA = styled.a<ContainerProps>`
     &:hover {
         text-shadow: 2px 2px 2px;
         text-decoration: underline;
-        font-size: ${(props) => Number(props.fontSize.replace("px", "")) + 2 +  "px"};
+        font-size: 90%;
         &:active {
             text-shadow: 1px 1px 2px;
         }

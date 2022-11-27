@@ -11,7 +11,7 @@ const StyledSelect = styled.select<SelectProps>`
     color: ${(props) => props.color};
     padding: ${(props) => props.padding};
     border: none;
-    font-size: 15px;
+    font-size: 22px;
     text-align: center;
     -webkit-appearance: none;
     transition: all 200ms ease-in;
