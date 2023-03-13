@@ -9,6 +9,7 @@ interface DivProps extends PropsWithChildren {
     alignItems: string;
     borderRadius: string;
     fontSize: string;
+    id?: string;
 }
 
 
@@ -20,9 +21,10 @@ const Div: React.FC<DivProps> = ({
     alignItems,
     borderRadius,
     fontSize,
+    id,
     children
 }) => (
-    <StyledDiv backgroundColor={backgroundColor} width={width} height={height} flexDirection={flexDirection} alignItems={alignItems} borderRadius={borderRadius} fontSize={fontSize}>
+    <StyledDiv backgroundColor={backgroundColor} width={width} height={height} flexDirection={flexDirection} alignItems={alignItems} borderRadius={borderRadius} fontSize={fontSize} id={id}>
         {children}
     </StyledDiv>
 )

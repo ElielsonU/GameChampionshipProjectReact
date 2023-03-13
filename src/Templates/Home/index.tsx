@@ -31,9 +31,9 @@ const Home:React.FC = () => {
         <React.Fragment>
         <Header H1backgroundColor="#0092CA" color="#393E46" fontSize="36px">ST[O]RM Championship</Header>
         {Navigator}
-        <Div alignItems="center" backgroundColor="" borderRadius="" flexDirection="row" fontSize="" height="" width="100%">
+        <Div alignItems="center" backgroundColor="" borderRadius="" flexDirection="row" fontSize="" height="" width="100%" id={"main"}>
             <ContentBox LoginOnClick={LoginButtonEvent} SelectOnchange={SelectEvent} SignUpOnClick={SignUpButtonEvent} type="Let's Play"/>
-            {window.innerWidth < 870? null: <ContentBox LoginOnClick={LoginButtonEvent} SelectOnchange={SelectEvent} SignUpOnClick={SignUpButtonEvent} type="Description"/>}
+            <ContentBox LoginOnClick={LoginButtonEvent} SelectOnchange={SelectEvent} SignUpOnClick={SignUpButtonEvent} type="Description"/>
         </Div>
         <Footer Atext="Elielson U" backgroundColor="" color="#eee" fontSize="22px" href="https://github.com/ElielsonU">Made by</Footer>
     </React.Fragment>
