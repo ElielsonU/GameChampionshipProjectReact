@@ -6,7 +6,7 @@ import Autenticate from "./Templates/Autenticate";
 const Listeners = () => {
     return (
         <Routes>
-            <Route path="" element={<Home/>}/>
+            <Route path="/" element={<Home/>}/>
             <Route path="/Autenticated" element={<Autenticate/>}/>
         </Routes>
     )
