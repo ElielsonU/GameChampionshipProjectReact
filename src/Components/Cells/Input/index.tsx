@@ -2,9 +2,9 @@ import React from "react";
 import StyledInput from "./style"
 
 interface InputProps {
-    backgroundColor: string;
-    color: string;
-    placeholder: string;
+    backgroundColor?: string;
+    color?: string;
+    placeholder?: string;
     type: "text"|"email"|"password";
 }
 

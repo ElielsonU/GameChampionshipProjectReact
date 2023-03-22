@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 interface H1Props {
-    color: string;
-    backgroundColor: string;
-    fontSize: string;
+    color?: string;
+    backgroundColor?: string;
+    fontSize?: string;
 }
 
 const StyledH1 = styled.h1<H1Props>`

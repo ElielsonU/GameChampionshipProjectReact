@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 interface ContainerProps {
-    color: string;
-    fontSize: string;
+    color?: string;
+    fontSize?: string;
 }
 
 const StyledA = styled.a<ContainerProps>`

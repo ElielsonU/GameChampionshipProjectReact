@@ -5,7 +5,7 @@ import StyledFooter from "./style"
 
 interface FooterProps extends PropsWithChildren{
     color: string;
-    backgroundColor: string;
+    backgroundColor?: string;
     fontSize: string;
     href: string;
     Atext: string;
@@ -20,8 +20,8 @@ const Footer: React.FC<FooterProps> = ({
     children
 }) => (
     <StyledFooter backgroundColor={backgroundColor} color={color} fontSize={fontSize}>
-        <P backgroundColor="" color="" fontSize="">
-            {children} <A color={color} href={href} fontSize="">{Atext}</A>
+        <P padding="20px 0px 0px 0px">
+            {children} <A color={color} href={href}>{Atext}</A>
         </P>
     </StyledFooter>
 )

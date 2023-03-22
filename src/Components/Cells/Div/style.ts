@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 interface DivProps {
-    backgroundColor: string;
+    backgroundColor?: string;
     flexDirection: "row"|"column";
-    width: string;
-    height: string;
-    alignItems: string;
-    borderRadius: string;
-    fontSize: string;
+    width?: string;
+    height?: string;
+    alignItems?: string;
+    borderRadius?: string;
+    fontSize?: string;
 }
 
 const StyledDiv = styled.div<DivProps>`

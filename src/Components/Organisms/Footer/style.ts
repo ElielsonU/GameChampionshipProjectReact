@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 interface FooterProps {
     color: string;
-    backgroundColor: string;
+    backgroundColor?: string;
     fontSize: string;
 }
 

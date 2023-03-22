@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 interface SelectProps {
-    color: string;
-    backgroundColor: string;
-    padding: string;
+    color?: string;
+    backgroundColor?: string;
+    padding?: string;
 }
 
 const StyledSelect = styled.select<SelectProps>`

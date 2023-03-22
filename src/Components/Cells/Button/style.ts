@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 interface ContainerProps {
-    backgroundColor: string;
-    borderColor: string;
-    color: string;
-    padding: string
-    fontSize: string;
+    backgroundColor?: string;
+    borderColor?: string;
+    color?: string;
+    padding?: string
+    fontSize?: string;
 }
 
 const StyledButton = styled.button<ContainerProps>`

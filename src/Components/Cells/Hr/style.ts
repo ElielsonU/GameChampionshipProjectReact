@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 interface HrProps {
-    height: string
+    height?: string
 }
 
 const StyledHr = styled.hr<HrProps>`

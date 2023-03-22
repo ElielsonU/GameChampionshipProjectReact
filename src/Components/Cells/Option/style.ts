@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 interface OptionProps {
-    color: string;
-    backgroundColor: string;
+    color?: string;
+    backgroundColor?: string;
 }
 
 const StyledOption = styled.option<OptionProps>`

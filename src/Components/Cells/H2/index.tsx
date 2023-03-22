@@ -2,8 +2,8 @@ import React, { PropsWithChildren } from "react";
 import StyledH2 from "./style";
 
 interface H2Props extends PropsWithChildren {
-    color: string;
-    fontSize: string;
+    color?: string;
+    fontSize?: string;
 }
 
 const H2: React.FC<H2Props> = ({

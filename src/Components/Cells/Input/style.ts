@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 interface InputProps {
-    backgroundColor: string;
-    color: string;
+    backgroundColor?: string;
+    color?: string;
 }
 
 const StyledInput = styled.input<InputProps>`

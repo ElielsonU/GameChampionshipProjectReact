@@ -1,7 +1,6 @@
 import React from "react";
 import Button from "../../Components/Cells/Button";
 import Div from "../../Components/Cells/Div";
-import Hr from "../../Components/Cells/Hr";
 
 class Autenticate extends React.Component {
     render(): React.ReactNode {
@@ -15,8 +14,8 @@ class Autenticate extends React.Component {
             //handler
         }
         return (
-            <Div alignItems="flex-end" backgroundColor="" borderRadius="" flexDirection="row" fontSize="" width="" height="80%">
-                <Div alignItems="" backgroundColor="" borderRadius="" flexDirection="row" fontSize="" height="" width="50%">
+            <Div alignItems="flex-end" flexDirection="row" height="80%">
+                <Div alignItems="" flexDirection="row" width="50%">
                     <Button backgroundColor="#222831" borderColor="#222831" color="#eee" fontSize="120%" onClick={BackOnClick} padding="5px 15px">
                         {"Back"}
                     </Button>

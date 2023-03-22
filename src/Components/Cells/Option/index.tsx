@@ -3,8 +3,8 @@ import StyledOption from "./style";
 
 
 interface OptionProps extends PropsWithChildren{
-    color: string;
-    backgroundColor: string;
+    color?: string;
+    backgroundColor?: string;
     value: string;
 }
 

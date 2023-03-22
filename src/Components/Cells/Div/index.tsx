@@ -2,13 +2,13 @@ import React, { PropsWithChildren } from "react";
 import StyledDiv from "./style"
 
 interface DivProps extends PropsWithChildren {
-    backgroundColor: string;
-    width: string;
-    height: string;
+    backgroundColor?: string;
+    width?: string;
+    height?: string;
     flexDirection: "row"|"column";
-    alignItems: string;
-    borderRadius: string;
-    fontSize: string;
+    alignItems?: string;
+    borderRadius?: string;
+    fontSize?: string;
     id?: string;
 }
 

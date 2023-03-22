@@ -2,9 +2,9 @@ import React, { PropsWithChildren } from "react";
 import StyledH1 from "./style";
 
 interface H1Props extends PropsWithChildren {
-    color: string;
-    backgroundColor: string;
-    fontSize: string;
+    color?: string;
+    backgroundColor?: string;
+    fontSize?: string;
 }
 
 const H1: React.FC<H1Props> = ({

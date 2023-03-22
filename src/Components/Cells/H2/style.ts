@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 interface H2Props {
-    color: string;
-    fontSize: string;
+    color?: string;
+    fontSize?: string;
 }
 
 const StyledH2 = styled.h2<H2Props>`
