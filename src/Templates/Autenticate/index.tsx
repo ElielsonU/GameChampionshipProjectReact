@@ -15,7 +15,7 @@ class Autenticate extends React.Component {
         }
         return (
             <Div alignItems="flex-end" flexDirection="row" height="80%">
-                <Div alignItems="" flexDirection="row" width="50%">
+                <Div flexDirection="row" width="50%">
                     <Button backgroundColor="#222831" borderColor="#222831" color="#eee" fontSize="120%" onClick={BackOnClick} padding="5px 15px">
                         {"Back"}
                     </Button>
